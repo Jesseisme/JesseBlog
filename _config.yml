@@ -11,7 +11,7 @@ gitment:
   client_secret: ## GitHub client secret, e.g. ec2fb9054972c891289640354993b662f4cccc50
 gitalk:
   enable: false ## If you want to use Gitment comment system please set the value to true.
-  owner:  ## Your GitHub ID, e.g. username
+  owner:  ## Your GitHub ID, e.g. usernyourame
   repo:  ## The repository to store your comments, make sure you're the repo's owner, e.g. gitalk.github.io
   client_id:  ## GitHub client ID, e.g. 75752dafe7907a897619
   client_secret:  ## GitHub client secret, e.g. ec2fb9054972c891289640354993b662f4cccc50
@@ -27,11 +27,11 @@ valine: ## https://valine.js.org
   pageSize: 10 ## Number of comments per page.
   guest_info: nick,mail,link ## Attributes of reviewers.
 
-google_search: true
+google_search: false
 baidu_search: false ## Use Baidu search, true/false.
 swiftype: ## Your swiftype_key, e.g. m7b11ZrsT8Me7gzApciT
 tinysou: ## Your tinysou_key, e.g. 4ac092ad8d749fdc6293
-self_search: false ## Use a jQuery-based local search engine, true/false.
+self_search: true ## Use a jQuery-based local search engine, true/false.
 google_analytics: ## Your Google Analytics tracking id, e.g. UA-42425684-2
 baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
 fancybox: true ## If you want to use fancybox please set the value to true.
